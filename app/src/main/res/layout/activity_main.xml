@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/syncPrintBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="同步打印" />
+
+    <Button
+        android:id="@+id/asyncPrintBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="异步打印-带进度框" />
+
+    <Button
+        android:id="@+id/asyncNoDialogPrintBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="异步打印-不带进度框" />
+
+    <Button
+        android:id="@+id/previewPrintBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="异步打印-带预览" />
+
+    <Button
+        android:id="@+id/singleSetDarnessBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="单独设置(P50、P30、P1200、H50)黑度" />
+
+    <Button
+        android:id="@+id/singleSetCutOptionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="单独设置P50切刀" />
+
+    <Button
+        android:id="@+id/search_bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="搜索蓝牙" />
+    <Button
+        android:id="@+id/search_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="搜索wifi" />
+    <Button
+        android:id="@+id/connect_bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="连接蓝牙" />
+    <Button
+        android:id="@+id/connect_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="连接wifi" />
+
+    <Button
+        android:id="@+id/print_success"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="单张打印成功" />
+
+
+</LinearLayout>
